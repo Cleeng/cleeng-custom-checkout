@@ -1,0 +1,230 @@
+/* Developed by Cleeng, 2018. version 1.
+This style sheet can be used to customise the style for Cleeng Merchant Checkout and MyAccount widgets
+Make a copy, tweak the css, host the file yourself and link this to the widget.
+See full instructions and more examples on https://developers.cleeng.com */
+
+/* Adjust checkout body */
+body {
+  background-color: #e8e8ea;
+  font-family: 'Geomanist-Regular', 'Segoe UI', 'HelveticaNeue-Light', sans-serif;
+}
+
+/* Adjust font colors */
+#email-signup a, #email-signup a:hover, #email-signup .discount {
+  color: #000;
+}
+
+/* Adjust headers */
+h1, h2, h3 {
+  font-family: 'Geomanist-Regular', 'Segoe UI', 'HelveticaNeue-Light', sans-serif;
+}
+
+/* Adjust header border */
+body .header-wrapper {
+    border-bottom: 8px solid #ffd200;
+}
+
+/* Adjust text inputs */
+.form-wrapper input:not([type=submit]) {
+  border: 1px solid #000;
+  background-color: transparent;
+}
+
+/* Adjust radio buttons */
+label.radio:before {
+  border: 1px solid #000;
+  background-color: transparent;
+  width: 37px;
+  height: 37px;
+  margin-right: 38px;
+}
+
+/* Adjust radio buttons */
+input[type="radio"]:checked + label:before {
+  background: #000 !important;
+  font-size: 0;
+}
+
+/* Adjust buttons */
+.submitbutton .btn-primary {
+  background-color: #ffd200 !important;
+  border-color: #ffd200 !important;
+  color: #000;
+  padding: 8px 25px;
+}
+
+.btn.btn-primary {
+  background-color: #ffd200 !important;
+  border-color: #ffd200 !important;
+}
+
+/* Adjust logout button icon */
+.glyphicon-off:before {
+    color: #000;
+}
+
+/* Adjust logout button text */
+#welcomeMsg {
+	color: #000;
+}
+
+/* Adjust 'Apply coupon' button */
+.coupon-link, .coupon-link:hover {
+    border-color: ;
+    color: #000;
+    border-color: #000;
+}
+
+/* Adjust 'go back' button */
+.btn.goback {
+  background-color: #fff;
+  color: #000;
+  padding: 8px 20px;
+}
+
+/* Adjust 'go back' button */
+.btn.goback:hover {
+  background-color: #a1a1a1;
+}
+
+/* Adjust submit button */
+.form-group.submitbutton {
+  float: right;
+}
+
+/* Adjust social buttons */
+.social-button.google, .social-button.facebook, .social-button.email {
+  width: 80%;
+  font-size: 16px;
+  border-radius: 2px;
+  padding: 9px 12px;
+  margin: 12px auto 35px;
+}
+
+/* Adjust social buttons */
+.social-button.facebook .icon{
+  background:url('./icons/facebook.png');
+  background-repeat: no-repeat;
+  width: 16px;
+  height: 30px;
+  margin: -4px 0 0 0;
+}
+
+/* Adjust Google button */
+.social-button.google .icon{
+  background:url('./icons/google.png');
+  background-repeat: no-repeat;
+  width: 28px;
+  height: 28px;
+  background-size:cover;
+  margin: -4px 0 0 0;
+}
+
+/* Adjust 'email' button */
+.social-button.email .icon{
+  background:url('./icons/email.png');
+  background-repeat: no-repeat;
+  width: 27px;
+  height: 19px;
+  margin: 1px 0 0 0;
+}
+
+/* Adjust checkbox */
+.checkmark {
+  background-color: transparent;
+  border: 1px solid #000;
+  border-radius: 0;
+}
+
+/* Adjust footer */
+.page-row.footer {
+  display: none;
+}
+
+/* Adjust authentication screen */
+#auth-view1 h2:before {
+  content: 'Some custom text';
+  display: block;
+  font-family: 'Geomanist-Book';
+  line-height: 2em;
+  position: relative;
+  top: -20px;
+  width: 80%;
+  margin: 0 auto;
+}
+
+/* Adjust 'sign up via email' button */
+#email-signup {
+  width: 85%;
+}
+/* Adjust 'sign up via email' button */
+#email-signup .form-horizontal .radio {
+  margin-bottom: 27px;
+  font-size: 14px;
+}
+
+/* Adjust registration input */
+#email-signup .form-wrapper input:not([type=submit]) {
+  font-size: 14px !important;
+  text-align: center;
+  padding: 9px 16px;
+}
+
+/* Adjust consents */
+.registration-consents {
+  color: #b4b4b4;
+}
+
+/* Adjust email social button */
+.social-button.email:hover {
+  background-color: #969494;
+}
+
+/* Adjust checked inputs */
+.form-wrapper .cont input:checked ~ .checkmark {
+  background-color: #b4b4b4;
+}
+
+/* Adjust submit button */
+.form-wrapper .cont input:not([type=submit]) {
+  width: auto;
+}
+
+/* Adjust buttons */
+.btn.btn-primary {
+    color: #000;
+    background-color: #ffd200 !important;
+    border-color: #ffd200 !important;
+}
+
+/* Adjust 'Already have access' button */
+.btn.btn-primary, .btn.btn-primary:focus, .btn.btn-primary:active, .btn.btn-primary.active {
+    background-color: #ffd200!important;
+    border-color: #ffd200 !important;
+}
+
+/* Adjust welcome message */
+#welcomeMsg {
+    background-color: #ffd200 !important;
+    border-color: #ffd200  !important;
+}
+
+/* Adjust submit buttons */
+input[type=submit]{
+    background-color: #ffd200 !important;
+    border-color: #ffd200; !important;
+}
+
+/* Adjust logout button */
+a.logout-link, a.logout-link:hover {
+    background: #ffd200 !important; 
+}
+
+/* Adjust 'already have access' button */
+.access-btn, button[type="submit"].access-btn:focus {
+    background-color: #ffd200;
+} 
+
+.page-row.page-row-main {
+  padding: 0;
+}
